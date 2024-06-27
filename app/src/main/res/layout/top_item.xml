@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/boder">
+
+    <TextView
+        android:id="@+id/tvTopSach"
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:layout_weight="3"
+        android:layout_marginRight="10dp"
+        android:text="MaLoaiSach"
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/tvTopSl"
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:layout_weight="2"
+        android:textStyle="bold"
+        android:text="SoLuongSach"
+        android:textSize="16dp" />
+    </LinearLayout>
+</LinearLayout>
